@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    private static final String BOOK_BASE_URL =  "https://itunes.apple.com/search?term=shawn+mendes";
+    private static final String BOOK_BASE_URL =  "https://itunes.apple.com/search?term=shawn+mendes";//itu yang shawn mendes cuman buat coba2 aja,aslinya itu diganti sama paramater
     private static final String QUERY_PARAM = "term";
     private static final String MAX_RESULTS = "maxResults";
     private List<item> array= new ArrayList<item>();
